@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap&effect=fire" rel="stylesheet">
+</head>
+
+<body class="mobile">
+    <nav>
+        <div class="container nav-wrapper">
+            <div class="brand">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREIxDkUui8py16rL9PFE21EGraAZBw6C3zrIYk5hafVQ&s" alt="" class="image">
+                <span id="WC"><strong class="WCSC font-effect-fire">WCSC</strong></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <i class="fas fa-car"></i>
+            <ul class="nav-list">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="#">Courses</a>
+                    <ul class="dropdown-list">
+                        <li><a href="#">Junior Software Developer</a></li>
+                        <li><a href="#">Digital marketing</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">Graphic Designer</a></li>
+                        <li><a href="#">General Duty Assistent</a></li>
+                        <li><a href="#">Solar Panel Installation</a></li>
+                        <li><a href="#">Fashion Designer</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <button class="btn1">Login</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="header container">
+            <div>
+                <h1 class="wel-text">Welcome to WCSC Homepage</h1>
+                <marquee bgcolor="skyblue" height="30px" hspace="400px" behavior="scroll" direction="right" id="marq"><h4><span class="scroll-text">An Initiative by Sir Vikram Sahni.</span></h4></marquee>
+                <div class="welcome-box">
+                    <button class="btn">Get Inspired by him</button>
+                    <img src="https://i.ytimg.com/vi/TESWoAoz7u0/hqdefault.jpg" alt="Vikram Sahni sir" class="vikram">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
